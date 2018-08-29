@@ -1,0 +1,15 @@
+{
+    "name": "Python",
+    "type": "python",
+    "pythonPath":"${config:python.pythonPath}",
+    "request": "launch",
+    "console": "none",
+    "program": "python pacman.py -l tinyMaze -p SearchAgent",
+    "cwd": "${workspaceFolder}",
+    "debugOptions": [
+        "WaitOnAbnormalExit",
+        "WaitOnNormalExit",
+        "RedirectOutput"
+    ],
+    "env": {"name":"value"}
+}
